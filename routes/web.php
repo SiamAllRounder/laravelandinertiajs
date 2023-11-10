@@ -9,3 +9,4 @@ Route::get('/well', function () {
 
 
 Route::get('/', [HomeController::class, 'HomePage']);
+Route::inertia('/product', 'Product');
